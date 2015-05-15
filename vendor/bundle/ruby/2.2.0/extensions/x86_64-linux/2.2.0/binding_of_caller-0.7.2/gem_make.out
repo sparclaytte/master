@@ -1,0 +1,12 @@
+/home/sparc/.rvm/rubies/ruby-2.2.1/bin/ruby -r ./siteconf20150515-17602-1pty7u4.rb extconf.rb
+
+make "DESTDIR=" clean
+make: *** Aucune règle pour fabriquer la cible « clean ». Arrêt.
+
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+make "DESTDIR=" install
+echo "Nada."
+Nada.

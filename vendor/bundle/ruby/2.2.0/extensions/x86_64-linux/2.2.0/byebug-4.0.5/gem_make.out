@@ -1,0 +1,15 @@
+/home/sparc/.rvm/rubies/ruby-2.2.1/bin/ruby -r ./siteconf20150515-17602-1nk8kxl.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling locker.c
+compiling byebug.c
+compiling breakpoint.c
+compiling context.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20150515-17602-1f8n9tk/byebug
